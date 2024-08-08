@@ -1,0 +1,122 @@
+/* Custom Navbar Styles */
+.navbar-custom {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradient background */
+}
+
+.navbar-custom .nav-link {
+    color: #f0f0f0; /* Light gray text color */
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffffff; /* Pure white on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+.navbar-brand-custom {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    border-color: #ffffff; /* White border for the hamburger icon */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+/* Custom header style */
+.header-section {
+    height: 500px;
+    background: linear-gradient(to right, #f0f4ff, #d4e1f5); /* Light gradient from white to blue */
+    padding: 60px 0;
+    border-bottom-left-radius: 50% 20px; /* Creating wave shape */
+    border-bottom-right-radius: 50% 20px; /* Creating wave shape */
+}
+
+.header-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1e3c72;
+}
+
+.header-section p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Custom judul */
+
+.section-title .title {
+    font-family: 'Poppins', sans-serif; /* Contoh font modern, sesuaikan dengan tema Anda */
+    font-size: 2rem; /* Ukuran font */
+    font-weight: bold; /* Ketebalan font */
+    position: relative;
+    padding: 0 1rem; /* Jarak antara teks dan garis */
+    color: #343a40; /* Warna teks */
+}
+
+.section-title .line-left,
+.section-title .line-right {
+    position: absolute;
+    top: 50%;
+    width: 100px; /* Panjang garis */
+    height: 2px; /* Ketebalan garis */
+    background-color: #007bff; /* Warna garis, sesuaikan dengan tema */
+    transform: translateY(-50%);
+}
+
+.section-title .line-left {
+    left: -110px; /* Posisi di sebelah kiri, jaraknya diatur */
+}
+
+.section-title .line-right {
+    right: -110px; /* Posisi di sebelah kanan, jaraknya diatur */
+}
+
+
+
+.card {
+    width: 100%;
+    max-width: 18rem;
+    margin-bottom: 20px;
+    min-height: 350px; /* Set a fixed minimum height for consistency */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto; /* Ensure the image maintains its aspect ratio */
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gallery-item img {
+    width: 100%;
+    height: 200px; /* Fixed height for thumbnails */
+    object-fit: cover; /* Crop to fit dimensions */
+}
+
+.custom-btn {
+    background-color: #6c757d; /* Adjust the color to match your theme */
+    border: none;
+    border-radius: 50px; /* Rounded corners for a sleek look */
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #343a40; /* Darker shade on hover */
+    color: #fff;
+}
